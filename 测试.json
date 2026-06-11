@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "simulation_direction": "结构力学仿真",
+        "industry": "机械制造、航空航天",
+        "common_software": "ANSYS Mechanical, ABAQUS",
+        "core_algorithm": "有限元法(FEM)",
+        "simulation_type": "静态力学、动态冲击",
+        "difficulty_level": "中高",
+        "program_language": "Python, C++",
+        "typical_scenario": "零部件强度校核、疲劳分析"
+    },
+    {
+        "id": 2,
+        "simulation_direction": "流体力学仿真",
+        "industry": "汽车、船舶、能源",
+        "common_software": "Fluent, STAR-CCM+",
+        "core_algorithm": "有限体积法(FVM)",
+        "simulation_type": "单相流、多相流",
+        "difficulty_level": "高",
+        "program_language": "Python, Fortran",
+        "typical_scenario": "风阻计算、管道流场分析"
+    },
+    {
+        "id": 3,
+        "simulation_direction": "热传导仿真",
+        "industry": "电子电器、新能源",
+        "common_software": "ANSYS Icepak, COMSOL",
+        "core_algorithm": "有限元法、热网络法",
+        "simulation_type": "稳态热、瞬态热",
+        "difficulty_level": "中等",
+        "program_language": "Python",
+        "typical_scenario": "芯片散热、电池热管理"
+    },
+    {
+        "id": 4,
+        "simulation_direction": "电磁场仿真",
+        "industry": "通信、电力、半导体",
+        "common_software": "HFSS, CST, COMSOL",
+        "core_algorithm": "时域有限差分(FDTD)",
+        "simulation_type": "静电场、高频电磁场",
+        "difficulty_level": "高",
+        "program_language": "MATLAB, Python",
+        "typical_scenario": "天线设计、电磁兼容测试"
+    },
+    {
+        "id": 5,
+        "simulation_direction": "多体动力学仿真",
+        "industry": "汽车、工程机械",
+        "common_software": "ADAMS, RecurDyn",
+        "core_algorithm": "拉格朗日动力学方程",
+        "simulation_type": "刚体运动、柔性体耦合",
+        "difficulty_level": "中高",
+        "program_language": "C++, Python",
+        "typical_scenario": "悬架运动、机械关节仿真"
+    },
+    {
+        "id": 6,
+        "simulation_direction": "声学仿真",
+        "industry": "家电、建筑、汽车NVH",
+        "common_software": "LMS Virtual.Lab, COMSOL",
+        "core_algorithm": "边界元法(BEM)",
+        "simulation_type": "噪声传播、振动声学",
+        "difficulty_level": "中等",
+        "program_language": "MATLAB",
+        "typical_scenario": "车内噪音、建筑隔音分析"
+    },
+    {
+        "id": 7,
+        "simulation_direction": "爆炸与冲击仿真",
+        "industry": "国防、爆破工程",
+        "common_software": "LS-DYNA, AUTODYN",
+        "core_algorithm": "光滑粒子流体动力学(SPH)",
+        "simulation_type": "瞬态强冲击、大变形",
+        "difficulty_level": "极高",
+        "program_language": "Fortran, C++",
+        "typical_scenario": "防爆结构、爆破效果模拟"
+    },
+    {
+        "id": 8,
+        "simulation_direction": "岩土力学仿真",
+        "industry": "土木工程、地质工程",
+        "common_software": "PLAXIS, FLAC3D",
+        "core_algorithm": "有限差分法(FDM)",
+        "simulation_type": "边坡稳定、地基沉降",
+        "difficulty_level": "中高",
+        "program_language": "Python",
+        "typical_scenario": "隧道开挖、边坡防护仿真"
+    },
+    {
+        "id": 9,
+        "simulation_direction": "光学仿真",
+        "industry": "光学仪器、光伏、显示",
+        "common_software": "Zemax, LightTools",
+        "core_algorithm": "光线追迹法",
+        "simulation_type": "几何光学、物理光学",
+        "difficulty_level": "中等",
+        "program_language": "MATLAB, Python",
+        "typical_scenario": "镜头设计、光路仿真"
+    },
+    {
+        "id": 10,
+        "simulation_direction": "气固耦合仿真",
+        "industry": "风电、航空发动机",
+        "common_software": "ANSYS Workbench",
+        "core_algorithm": "流固耦合算法",
+        "simulation_type": "双向耦合、单向耦合",
+        "difficulty_level": "极高",
+        "program_language": "C++, Python",
+        "typical_scenario": "风机叶片气动变形"
+    },
+    {
+        "id": 11,
+        "simulation_direction": "颗粒动力学仿真",
+        "industry": "化工、矿山、粮食加工",
+        "common_software": "EDEM, Rocky",
+        "core_algorithm": "离散元法(DEM)",
+        "simulation_type": "颗粒碰撞、物料输送",
+        "difficulty_level": "中高",
+        "program_language": "Python",
+        "typical_scenario": "料仓卸料、传送带物料仿真"
+    },
+    {
+        "id": 12,
+        "simulation_direction": "电化学仿真",
+        "industry": "动力电池、电解行业",
+        "common_software": "COMSOL, Battery Design Studio",
+        "core_algorithm": "多孔介质模型",
+        "simulation_type": "电池充放电、电解液传输",
+        "difficulty_level": "高",
+        "program_language": "Python",
+        "typical_scenario": "锂电池性能仿真、老化分析"
+    },
+    {
+        "id": 13,
+        "simulation_direction": "水下流体仿真",
+        "industry": "海洋工程、潜水装备",
+        "common_software": "Fluent, OpenFOAM",
+        "core_algorithm": "VOF两相流模型",
+        "simulation_type": "水面兴波、水下绕流",
+        "difficulty_level": "高",
+        "program_language": "Fortran, Python",
+        "typical_scenario": "潜艇水动力、海洋平台流场"
+    },
+    {
+        "id": 14,
+        "simulation_direction": "振动仿真",
+        "industry": "轨道交通、精密仪器",
+        "common_software": "ANSYS, LMS",
+        "core_algorithm": "模态分析、谐响应分析",
+        "simulation_type": "固有模态、受迫振动",
+        "difficulty_level": "中等",
+        "program_language": "MATLAB",
+        "typical_scenario": "设备减振、轨道振动抑制"
+    },
+    {
+        "id": 15,
+        "simulation_direction": "开源通用物理仿真",
+        "industry": "科研、高校、初创团队",
+        "common_software": "OpenFOAM, FEniCS",
+        "core_algorithm": "多物理场统一求解",
+        "simulation_type": "自定义多物理场",
+        "difficulty_level": "高",
+        "program_language": "Python, C++",
+        "typical_scenario": "学术研究、自研仿真程序"
+    }
+]

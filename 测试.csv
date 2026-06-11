@@ -1,0 +1,16 @@
+﻿id,simulation_direction,industry,common_software,core_algorithm,simulation_type,difficulty_level,program_language,typical_scenario
+1,结构力学仿真,机械制造、航空航天,"ANSYS Mechanical, ABAQUS",有限元法(FEM),静态力学、动态冲击,中高,"Python, C++",零部件强度校核、疲劳分析
+2,流体力学仿真,汽车、船舶、能源,"Fluent, STAR-CCM+",有限体积法(FVM),单相流、多相流,高,"Python, Fortran",风阻计算、管道流场分析
+3,热传导仿真,电子电器、新能源,"ANSYS Icepak, COMSOL",有限元法、热网络法,稳态热、瞬态热,中等,Python,芯片散热、电池热管理
+4,电磁场仿真,通信、电力、半导体,"HFSS, CST, COMSOL",时域有限差分(FDTD),静电场、高频电磁场,高,"MATLAB, Python",天线设计、电磁兼容测试
+5,多体动力学仿真,汽车、工程机械,"ADAMS, RecurDyn",拉格朗日动力学方程,刚体运动、柔性体耦合,中高,"C++, Python",悬架运动、机械关节仿真
+6,声学仿真,家电、建筑、汽车NVH,"LMS Virtual.Lab, COMSOL",边界元法(BEM),噪声传播、振动声学,中等,MATLAB,车内噪音、建筑隔音分析
+7,爆炸与冲击仿真,国防、爆破工程,"LS-DYNA, AUTODYN",光滑粒子流体动力学(SPH),瞬态强冲击、大变形,极高,"Fortran, C++",防爆结构、爆破效果模拟
+8,岩土力学仿真,土木工程、地质工程,"PLAXIS, FLAC3D",有限差分法(FDM),边坡稳定、地基沉降,中高,Python,隧道开挖、边坡防护仿真
+9,光学仿真,光学仪器、光伏、显示,"Zemax, LightTools",光线追迹法,几何光学、物理光学,中等,"MATLAB, Python",镜头设计、光路仿真
+10,气固耦合仿真,风电、航空发动机,ANSYS Workbench,流固耦合算法,双向耦合、单向耦合,极高,"C++, Python",风机叶片气动变形
+11,颗粒动力学仿真,化工、矿山、粮食加工,"EDEM, Rocky",离散元法(DEM),颗粒碰撞、物料输送,中高,Python,料仓卸料、传送带物料仿真
+12,电化学仿真,动力电池、电解行业,"COMSOL, Battery Design Studio",多孔介质模型,电池充放电、电解液传输,高,Python,锂电池性能仿真、老化分析
+13,水下流体仿真,海洋工程、潜水装备,"Fluent, OpenFOAM",VOF两相流模型,水面兴波、水下绕流,高,"Fortran, Python",潜艇水动力、海洋平台流场
+14,振动仿真,轨道交通、精密仪器,"ANSYS, LMS",模态分析、谐响应分析,固有模态、受迫振动,中等,MATLAB,设备减振、轨道振动抑制
+15,开源通用物理仿真,科研、高校、初创团队,"OpenFOAM, FEniCS",多物理场统一求解,自定义多物理场,高,"Python, C++",学术研究、自研仿真程序
